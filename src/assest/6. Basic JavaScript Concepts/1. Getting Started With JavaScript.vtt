@@ -1,0 +1,493 @@
+WEBVTT
+
+00:00.970 --> 00:01.260
+All right.
+
+00:01.270 --> 00:05.280
+So now we're going to get into an actual legit programming language.
+
+00:05.320 --> 00:09.970
+Each team is a markup language and CSSA is a style sheet language.
+
+00:09.970 --> 00:16.990
+Both used to physically display content javascript on the other hand is a high level programming language
+
+00:17.320 --> 00:22.330
+that's used mostly to create interactive effects in the browser.
+
+00:22.330 --> 00:29.170
+Now we are able to run javascript on the server with no Jey apps and also in other non-web based environments
+
+00:29.170 --> 00:34.990
+like PTF documents sites specific browsers and desktop widgets but we're not going to get into that
+
+00:35.080 --> 00:36.270
+in this section.
+
+00:36.370 --> 00:41.980
+So we're basically going to be looking at client side javascript in the browser.
+
+00:42.830 --> 00:43.210
+All right.
+
+00:43.240 --> 00:50.500
+Now when we classified programming languages with certain terms Javascript has qualities that can be
+
+00:50.500 --> 00:53.750
+described using a whole wide range of terms.
+
+00:53.770 --> 00:59.320
+So first it's a scripting language and a scripting language is a programming language that supports
+
+00:59.320 --> 01:06.570
+scripts or programs written for a special runtime environment that automate the execution of tasks.
+
+01:06.730 --> 01:10.230
+So it doesn't do something and wait and then do something else.
+
+01:10.240 --> 01:15.260
+It has a script to follow it executes those tasks until the script is finished.
+
+01:15.460 --> 01:19.440
+And in the case of javascript this all happens within your web browser.
+
+01:20.020 --> 01:20.310
+Right.
+
+01:20.320 --> 01:26.530
+It's also known as an interpreted language which means that it doesn't have to be compiled into machine
+
+01:26.530 --> 01:29.370
+code for the system to run it.
+
+01:29.370 --> 01:37.310
+This is opposed to a language that's compiled like C++ or Java or some of the other high level languages.
+
+01:37.570 --> 01:42.820
+And by the way you probably already know this but Javascript has absolutely nothing to do with the Java
+
+01:42.850 --> 01:49.810
+programming language javascript is also an untyped language.
+
+01:50.010 --> 01:57.030
+And what that means is that it doesn't use a static type system where all of all variables and objects
+
+01:57.030 --> 02:04.150
+have to be specifically assigned to a type such as in a string or an integer or something like that.
+
+02:04.560 --> 02:12.020
+There are supersets of javascript such as typescript that can use types but javascript alone does not.
+
+02:12.290 --> 02:12.560
+All right.
+
+02:12.560 --> 02:17.390
+So when you create a variable you don't have to worry about assigning it to a string or whatever.
+
+02:18.420 --> 02:25.140
+Javascript is also considered to be multi-paradigm which means that you can code in different ways.
+
+02:25.230 --> 02:27.570
+So it's object oriented at heart.
+
+02:27.570 --> 02:31.100
+Everything in javascript is an object for the most part.
+
+02:31.110 --> 02:32.790
+It's prototype based.
+
+02:32.790 --> 02:39.290
+Classes are available in the newer 6 version which is the late the latest stable version.
+
+02:39.300 --> 02:41.910
+But that's something that is very new.
+
+02:42.000 --> 02:48.200
+It can also be used as an imperative language which uses statements that can change a program state.
+
+02:48.510 --> 02:54.210
+And then it's also used as a good old fashioned functional language which is just code composed of a
+
+02:54.210 --> 02:55.680
+set of functions.
+
+02:57.610 --> 03:02.010
+So javascript uses the ECMAScript specification.
+
+03:02.050 --> 03:08.500
+It's essentially a set of rules standardized by Eckman International which is a nonprofit standards
+
+03:08.500 --> 03:12.510
+organization for information and communication systems.
+
+03:12.550 --> 03:18.610
+Now Javascript isn't the only language that uses this standard you also have js script which is kind
+
+03:18.610 --> 03:25.210
+of Microsoft's adaptation of javascript action script and then some others.
+
+03:25.210 --> 03:31.960
+All right so here are some notable versions of ECMAScript and Javascript E.S. five was standardized
+
+03:31.960 --> 03:39.640
+back in 2009 and it has pretty much complete compatibility in just about every browser.
+
+03:39.640 --> 03:47.950
+This is the most common version and what we'll be looking at mostly now iOS 6 also called E.S. 2015
+
+03:48.280 --> 03:56.680
+added a bunch of new features like classes aero functions generators modules EMC 6 features are not
+
+03:56.680 --> 04:00.250
+all compatible with some of the modern browsers.
+
+04:00.580 --> 04:06.460
+So in order to use them sometimes you have to use some additional tools such as Bayville which can take
+
+04:06.460 --> 04:15.010
+that ESX coding can and compile it into S-5 so that it can run in different versions of different browsers
+
+04:15.640 --> 04:23.700
+and then iOS 7 or iest 2016 is the most recent version but still it's still in the works.
+
+04:23.740 --> 04:32.230
+And again you would need to implement other technologies to compile it down to either E.S. 5 or even
+
+04:32.230 --> 04:33.950
+iOS 6.
+
+04:33.960 --> 04:37.960
+All right so now we're going to take a look at some of the JavaScript syntax.
+
+04:37.960 --> 04:44.860
+I'm going to go through that and go through some of the syntax very very briefly but we will get into
+
+04:44.860 --> 04:46.760
+more of it as we go along.
+
+04:47.080 --> 04:52.830
+All right so javascript syntax is a set of rules for how javascript programs are built.
+
+04:52.960 --> 04:59.590
+Javascript uses most of the usual instructions and syntax that many programming languages use such as
+
+04:59.590 --> 05:08.260
+variables expressions arrays objects loops conditionals comparison's switches and functions.
+
+05:08.260 --> 05:09.590
+All right just to name a few.
+
+05:10.740 --> 05:15.970
+So when we talk about javascript output there's a few different things that we can do.
+
+05:16.080 --> 05:23.490
+We'll probably use console log the most and what this does is it will print whatever we ask it to out
+
+05:23.490 --> 05:28.020
+to the console within a browser or even within a terminal.
+
+05:28.020 --> 05:35.510
+For instance in Chrome if you hit F 12 it'll open up the chrome tools and you can use the console there.
+
+05:35.850 --> 05:42.420
+We also have window dog alert or just alert which will display content in an alert box that pops up
+
+05:42.420 --> 05:43.800
+in the browser.
+
+05:43.800 --> 05:50.070
+We have documented darte right which can display content within a script tag in the each team now and
+
+05:50.070 --> 05:57.060
+then we also have enraged him now which we can use by accessing an aged female element with document
+
+05:57.070 --> 06:01.950
+dot get element by D and then output it to that element.
+
+06:03.930 --> 06:07.260
+So variables are used to store values.
+
+06:07.500 --> 06:14.010
+Javascript uses the VAR keyword to declare variables and an equal sign to assign value.
+
+06:14.070 --> 06:20.460
+So if you look down here you can see we have var X so we're creating a variable called X and you want
+
+06:20.460 --> 06:22.650
+to add your lines with a semi-colon.
+
+06:22.650 --> 06:29.390
+Here we're saying that X is going to be equal to the integer or the number 100 and you can make this
+
+06:29.390 --> 06:33.420
+shorter by just saying var X equals 100 if you'd like.
+
+06:33.420 --> 06:35.040
+Now there are some rules to variables.
+
+06:35.040 --> 06:36.540
+They are case sensitive.
+
+06:36.600 --> 06:43.410
+So make sure you're aware of that variables can contain letters numbers underscores and dollar signs
+
+06:43.410 --> 06:44.720
+symbols.
+
+06:44.730 --> 06:50.030
+OK but they must begin with either a letter underscore a dollar sign you can't begin a variable with
+
+06:50.030 --> 06:51.150
+a number.
+
+06:51.750 --> 06:52.620
+All right.
+
+06:52.750 --> 06:59.020
+And that's that's pretty much universal for a lot of the popular programming languages.
+
+06:59.020 --> 07:06.120
+Now an expression is just a combination of values variables and operators which computes a value.
+
+07:06.300 --> 07:09.770
+So any of these are expressions two times five.
+
+07:09.820 --> 07:13.770
+You can also have variables X times 5 and strings.
+
+07:13.770 --> 07:15.550
+So here is saying hello world.
+
+07:15.690 --> 07:19.750
+And the plus sign is used to concatenate.
+
+07:20.070 --> 07:29.950
+You can concatenate strings or javascript whether it's a variable or a function whatever it may be comments
+
+07:29.950 --> 07:30.790
+are really easy.
+
+07:30.790 --> 07:32.370
+This is a single line comment.
+
+07:32.380 --> 07:37.750
+You want to use the double forward slash and then if you need to use more than one line you can use
+
+07:37.750 --> 07:46.090
+the slash asterisk and end it with asterisks slash and you can put your comment on as many lines as
+
+07:46.090 --> 07:53.420
+needed arrays so if you have any experience with any other programming languages then you probably have
+
+07:53.420 --> 07:58.530
+used arrays before they allow us to store multiple values into a single variable.
+
+07:58.550 --> 08:04.280
+So in this example we have a variable called names and we're setting it to an array with four different
+
+08:04.280 --> 08:05.630
+names.
+
+08:05.660 --> 08:05.990
+All right.
+
+08:06.010 --> 08:08.270
+And notice that it has.
+
+08:08.280 --> 08:14.930
+Uses square brackets and if they're strings they have to be in quotes k if their numbers they don't
+
+08:14.930 --> 08:17.130
+have to be strings do.
+
+08:17.360 --> 08:23.610
+And then here if we want to access let's say Bob we can console log names and then 0.
+
+08:23.780 --> 08:27.960
+OK this pertains to the index of the value in the array.
+
+08:28.010 --> 08:29.390
+Now it's zero.
+
+08:29.390 --> 08:33.410
+Arrays are zero based so if you want to access Bob that would be zero.
+
+08:33.470 --> 08:34.740
+Jim would be one.
+
+08:34.850 --> 08:37.230
+Jose to Paul of 3 and so on.
+
+08:37.400 --> 08:41.650
+OK so just remember that arrays are zero based.
+
+08:41.660 --> 08:47.660
+Next we have loops loops can execute a block of code as long as the condition is true and then it will
+
+08:47.660 --> 08:50.940
+repeat that until the condition is no longer true.
+
+08:50.990 --> 08:52.430
+So there's a couple of kinds.
+
+08:52.430 --> 08:54.850
+Different kinds of loops we have a for loop.
+
+08:55.010 --> 09:00.960
+C using the four key word and we're setting three different parameters we're setting high to zero.
+
+09:01.250 --> 09:06.800
+And then we're saying as long as I is less than 10 then we're going to run this code and we're also
+
+09:06.800 --> 09:10.430
+going to increment it by one by saying I plus plus.
+
+09:10.460 --> 09:14.280
+So essentially this is going to console log whatever AI is.
+
+09:14.390 --> 09:18.780
+And each time it goes through it's going to add 1 to it because we're incrementing it.
+
+09:19.130 --> 09:19.430
+All right.
+
+09:19.430 --> 09:27.570
+So as long as it's less than 10 this will keep running once it hits 10 then it'll stop.
+
+09:27.770 --> 09:31.400
+This while loop does the same exact thing it's just a different format.
+
+09:31.400 --> 09:34.570
+You want the while keyword put in the condition.
+
+09:34.610 --> 09:42.880
+Do what you're going to do in this case console log and then just increment objects so everything almost
+
+09:42.880 --> 09:46.090
+everything in Javascript can be considered an object.
+
+09:46.090 --> 09:52.240
+Objects have properties and methods and methods is kind of a fancy way of just saying function right.
+
+09:52.240 --> 09:55.460
+So we're going to go over this in depth later on.
+
+09:55.540 --> 10:00.490
+But if you want to create an object with some properties you can see we're creating an object called
+
+10:00.490 --> 10:07.120
+person and we have these curly braces that's going to define it as an object and then we have different
+
+10:07.120 --> 10:08.040
+properties.
+
+10:08.080 --> 10:10.970
+OK in this case we have name age and hair color.
+
+10:11.270 --> 10:20.050
+Now strings should be in quotes either double or single and a numbers don't have to be in quotes to
+
+10:20.050 --> 10:26.190
+access a property we can simply say person dog name and that will access this property here.
+
+10:26.380 --> 10:32.620
+And of course we can do person dog age or person dog hair color in this case and then if there a method
+
+10:32.620 --> 10:37.500
+attached to to an object you can also use the dot syntax here.
+
+10:37.540 --> 10:45.650
+So this would call the get name method on the person object conditionals and if statements.
+
+10:45.650 --> 10:51.350
+These work just like and if statements in any other programming language they'll run a block of code
+
+10:51.350 --> 10:53.030
+if something's true.
+
+10:53.030 --> 10:56.880
+All right so in this case we have a variable called X which is equal to 10.
+
+10:57.170 --> 11:04.030
+And we're going to say if x is greater than 5 then we're going to console log the word.
+
+11:04.040 --> 11:04.780
+Yes.
+
+11:04.880 --> 11:05.370
+OK.
+
+11:05.390 --> 11:07.640
+And x is greater than 5 it's 10.
+
+11:07.640 --> 11:12.650
+So this would run we can also attach an else in case it's not true.
+
+11:12.650 --> 11:22.200
+So if x is greater than 5 say Yes else if it's not then we're going to sing no switch can select one
+
+11:22.200 --> 11:24.200
+of many blocks of code to execute.
+
+11:24.210 --> 11:27.700
+And this is often used as an alternative for an IF statement.
+
+11:27.870 --> 11:32.850
+In this case we're testing the value of x and we as we apply different cases to it.
+
+11:32.850 --> 11:37.270
+So if it's one if X equals one then this will go ahead and run.
+
+11:37.290 --> 11:38.390
+It's just going to print out.
+
+11:38.420 --> 11:39.960
+Yes X is one.
+
+11:40.140 --> 11:43.130
+And then it's important that we break out of that as well.
+
+11:43.280 --> 11:49.740
+OK if it's true it's going to console log that and default basically happens if none of the above cases
+
+11:49.740 --> 11:50.510
+are true.
+
+11:50.670 --> 11:52.030
+So in this case we're going to log.
+
+11:52.020 --> 12:01.040
+No X is not 1 or 2 functions are blocks of code designed to run some kind of task.
+
+12:01.230 --> 12:07.030
+They can be created and then invoked later on in this case we're creating a function called Say hello
+
+12:07.210 --> 12:09.750
+I can see that we need to have our parentheses here.
+
+12:09.780 --> 12:15.180
+And then a set of curly braces inside here you can do whatever you'd like in this case we're just going
+
+12:15.180 --> 12:17.940
+to log the text Hello world.
+
+12:17.970 --> 12:19.710
+You can also use parameters.
+
+12:19.740 --> 12:22.550
+OK so here you can see we have a parameter called greeting.
+
+12:22.740 --> 12:29.610
+So when we at when we run this function we can actually pass a value into it and it'll console log that
+
+12:29.610 --> 12:31.700
+value.
+
+12:32.100 --> 12:37.290
+All right so that I know that that was very very brief but don't worry about it we're going to hit on
+
+12:37.290 --> 12:41.250
+all of those aspects of javascript as we move along.
+
+12:41.400 --> 12:42.970
+And I'll see you in the next video.

@@ -1,0 +1,529 @@
+WEBVTT
+
+00:01.080 --> 00:05.640
+All right guys from this video we're going to talk about javascript variables arrays and objects.
+
+00:05.640 --> 00:11.160
+But before we get into that I want to show you of the different ways that we can output data using javascript.
+
+00:11.280 --> 00:16.150
+So we have just an index each team on file with our basic age team structure.
+
+00:16.380 --> 00:21.330
+And what we're going to do is in the body we're going to go down to the bottom right above the ending
+
+00:21.330 --> 00:24.800
+body tag and put in a script tag.
+
+00:24.920 --> 00:25.230
+All right.
+
+00:25.230 --> 00:29.280
+And in here we can put in line we can put our javascript.
+
+00:29.280 --> 00:34.380
+All right so you just want to show you the different ways that we can output.
+
+00:34.380 --> 00:38.660
+So what we'll be mostly using is console thought long.
+
+00:39.090 --> 00:44.210
+And what that will do is it will log whatever we want to the console.
+
+00:44.430 --> 00:46.480
+So let's just say hello world.
+
+00:48.350 --> 00:49.670
+And save it.
+
+00:49.670 --> 00:55.340
+And then if we run this in the browser you won't see anything here but if you hit the F 12 I know it's
+
+00:55.470 --> 01:02.960
+12 and Chrome and Firefox is really the only two browsers I use but I know that IP and Safari also have
+
+01:03.020 --> 01:04.370
+tools that you can use.
+
+01:04.670 --> 01:10.170
+All right and you can see that if you make sure you click the console tab and it's giving us hello world.
+
+01:10.190 --> 01:10.450
+OK.
+
+01:10.460 --> 01:14.240
+So whenever we log out in the console show down here.
+
+01:14.480 --> 01:17.530
+So that's that's what we'll be using for the most part.
+
+01:17.550 --> 01:19.760
+But there are some other things we can do.
+
+01:20.060 --> 01:24.190
+We could use document Daut right.
+
+01:27.490 --> 01:27.930
+OK.
+
+01:27.940 --> 01:29.400
+So right.
+
+01:29.410 --> 01:37.850
+Is a method that we can run from the document object and whatever we put in here.
+
+01:38.060 --> 01:43.510
+Let's go ahead and save it or you load and that will output on the screen K wherever we put the script
+
+01:43.510 --> 01:44.420
+tags.
+
+01:44.470 --> 01:54.560
+So if we were to say up here for the right test and down here or a testing or you load you can see that
+
+01:54.600 --> 01:56.370
+hello world is in the middle of those two.
+
+01:56.370 --> 02:03.120
+So wherever we were to put the script tags but this isn't really a good way to output data.
+
+02:03.120 --> 02:06.240
+You don't want to have script tags all over the place.
+
+02:06.330 --> 02:06.630
+All right.
+
+02:06.630 --> 02:09.120
+But you can do that.
+
+02:09.120 --> 02:15.240
+Another way that we can output data is through an alert case so we have the window object and then that
+
+02:15.240 --> 02:21.720
+has an alert method or function say hello world.
+
+02:22.160 --> 02:27.840
+You load and you can see we get this pop up this alert box with Hello world.
+
+02:27.840 --> 02:28.170
+All right.
+
+02:28.170 --> 02:31.630
+And you don't and you actually don't even need to use Window Daut.
+
+02:31.650 --> 02:35.100
+You can just do alert and that will do the same thing.
+
+02:36.030 --> 02:36.300
+All right.
+
+02:36.310 --> 02:39.890
+And then the last method of output is going to show you is enter aged him.
+
+02:39.910 --> 02:49.180
+So with this what we would do is say we have a div we'll give it an idea of test and then down here
+
+02:49.660 --> 03:01.810
+we could say document Daut get element by id and the elements IDs test and then we can say Dot enter
+
+03:02.500 --> 03:10.780
+each team our equals and then whatever we wanted to say hello world we go on we reload now you can see
+
+03:10.780 --> 03:16.200
+wherever we put this did with the idea of test it's going to output Hello world.
+
+03:16.210 --> 03:19.600
+All right so those are the main methods of output.
+
+03:19.600 --> 03:26.170
+So next thing we're going to do is we want to variables and we touched on variables very very briefly
+
+03:26.420 --> 03:27.740
+in the last video.
+
+03:27.970 --> 03:31.710
+So what we can do is set a variable with the keyword var.
+
+03:31.960 --> 03:38.560
+So if we were to say var X that's going to create a variable called X.
+
+03:38.560 --> 03:47.470
+Now if we go on we console dot log x you'll see that it comes up undefined because we didn't we didn't
+
+03:47.470 --> 03:49.390
+assign to a value.
+
+03:49.660 --> 03:56.260
+So what we can do is say X equals 5 and then when we reload we'll get five.
+
+03:56.270 --> 04:02.070
+And Cain of course used to make this a little shorter or we could just say fire x equals 5.
+
+04:02.290 --> 04:04.680
+Just like that.
+
+04:04.750 --> 04:05.050
+All right.
+
+04:05.050 --> 04:07.740
+Now we can also do simple arithmetic.
+
+04:07.740 --> 04:10.840
+We save are y equals 10.
+
+04:11.020 --> 04:13.090
+And basically we can do some algebra.
+
+04:13.180 --> 04:19.040
+So if we console log x plus y that gives us 15 percent.
+
+04:19.240 --> 04:23.830
+So those are numbers or integers that we're assigning to those variables.
+
+04:23.830 --> 04:25.550
+We can also do strings.
+
+04:25.780 --> 04:36.130
+So if we were to say Wajir person equals John Doe and then console log person
+
+04:39.360 --> 04:40.230
+we get John Doe.
+
+04:40.230 --> 04:49.920
+So this is a string and a string has to be wrapped in quotes and it can be either single or double quotes.
+
+04:49.920 --> 04:58.530
+Now let's say we want to use this in a sentence in a string that we cancel logs so say Strober strings
+
+04:58.530 --> 05:08.580
+have quotes so say my name is and if we were to go like that you can see we get my name as person and
+
+05:08.580 --> 05:12.780
+that's not what we want to make this that an actual variable.
+
+05:12.990 --> 05:16.920
+We have to concatenate that onto the string.
+
+05:17.010 --> 05:19.850
+So to do that we use a plus sign cash.
+
+05:19.870 --> 05:28.710
+And now if we reload and see it says my name is John Doe right now if we want to assign multiple variables
+
+05:28.830 --> 05:30.390
+on one line we can do that.
+
+05:30.390 --> 05:38.850
+So let's say Vire a equals one and then we can put a comma B equals to see three.
+
+05:39.480 --> 05:42.280
+And then if we were to console wad B
+
+05:45.040 --> 05:47.230
+reload and you can see we get two.
+
+05:47.440 --> 05:49.590
+OK so it saves a little bit of space.
+
+05:50.830 --> 05:55.380
+So variables are a pretty simple aspect of Javascript.
+
+05:55.510 --> 06:04.390
+So now let's talk about arrays and arrays are basically they allow you to have multiple values within
+
+06:04.390 --> 06:05.660
+one variable.
+
+06:05.920 --> 06:13.270
+So it's one example here will create a variable called animals and we're going to set that to a set
+
+06:13.270 --> 06:22.470
+of square brackets which represents an array and then we're going to put values in Harrell's a dog cat.
+
+06:22.540 --> 06:30.080
+And these are strings but of course you could put numbers and say horse.
+
+06:30.270 --> 06:37.150
+OK so we have this array of animals and we can actually console log that.
+
+06:38.650 --> 06:41.400
+And down here you'll see we have our array.
+
+06:41.420 --> 06:49.150
+We put that arrow it'll show us each individual value now we want to target one of these like let's
+
+06:49.150 --> 06:51.080
+say we just want cash.
+
+06:51.310 --> 06:59.570
+Then we can say console log animals open up a set of brackets put in one reload and I can see we get
+
+06:59.710 --> 07:00.430
+it.
+
+07:00.730 --> 07:01.030
+All right.
+
+07:01.030 --> 07:08.710
+The reason that it's one and not two is because arrays are zero based so this would be 0 1 2.
+
+07:09.190 --> 07:09.720
+OK.
+
+07:09.790 --> 07:18.940
+And adding to this is also really easy we could say animals and we know that this is the it will be
+
+07:18.940 --> 07:26.650
+the third index 0 1 2 3 and set that to let's say count.
+
+07:26.730 --> 07:27.130
+All right.
+
+07:27.130 --> 07:36.170
+Now if we console don't log the animals you'll see that cow is now included on the end.
+
+07:37.680 --> 07:43.630
+Now this is one way to create an array we can also use the the new keyword.
+
+07:43.680 --> 07:46.390
+So I'm just going to show you this would be the way I would suggest.
+
+07:46.410 --> 07:55.770
+But just to give you an alternate way we could say animals equals new array and then a set of parentheses.
+
+07:56.100 --> 07:57.750
+And then we can say dog
+
+08:02.270 --> 08:05.630
+cat.
+
+08:06.200 --> 08:07.630
+OK we reload.
+
+08:07.630 --> 08:08.790
+We get the same thing.
+
+08:08.800 --> 08:10.380
+OK so just another way to do it.
+
+08:10.390 --> 08:15.370
+But I would suggest doing it this way.
+
+08:15.460 --> 08:24.890
+Now another way to add something to an array is to use the push method so we can say animals Daut push
+
+08:26.130 --> 08:29.460
+and here will say pig OK.
+
+08:29.510 --> 08:34.210
+Now if we console log it you'll see that pig is now added to the end.
+
+08:34.300 --> 08:38.060
+So there's a few different ways to do some of these things.
+
+08:38.080 --> 08:43.100
+Now this push method is available to us because an array is actually an object.
+
+08:43.150 --> 08:43.510
+OK.
+
+08:43.510 --> 08:50.860
+Just about everything can be considered an object in javascript so it has its own set of methods and
+
+08:50.860 --> 08:51.920
+properties.
+
+08:51.920 --> 08:55.600
+OK so this is a method that pushes on to the array.
+
+08:55.600 --> 08:55.930
+All right.
+
+08:55.930 --> 09:00.760
+Now we also have for instance length which is a property.
+
+09:00.760 --> 09:05.250
+So let's say Konsole adult log animals Daut length.
+
+09:05.260 --> 09:09.350
+And what that gives us if we reload it see it gives us a 5.
+
+09:09.580 --> 09:13.560
+Gives us the number of items in an array so we start out with three.
+
+09:13.660 --> 09:22.140
+We added cow which is 4 and then we added pig which is 5 K and other method that's available to us is
+
+09:22.130 --> 09:23.810
+sort.
+
+09:23.810 --> 09:30.000
+So if we were to paste that in and say animals dog sort.
+
+09:29.990 --> 09:33.150
+And that's a method or function so it needs parentheses.
+
+09:33.680 --> 09:39.670
+Reload and now you can see that it gives us the array but it's now sorted in alphabetical order.
+
+09:41.350 --> 09:47.290
+Now we also have associative arrays where we can actually define the index to be something other than
+
+09:47.530 --> 09:48.640
+just a number.
+
+09:48.880 --> 10:00.700
+So let me just comment that out and what we'll do here is let's say create var person and we'll set
+
+10:00.700 --> 10:07.030
+it to an empty array and then we can add indexes to it.
+
+10:07.030 --> 10:16.220
+So we'll save person name we'll save that to John Doe.
+
+10:16.650 --> 10:17.080
+OK.
+
+10:17.110 --> 10:31.220
+Actually we don't want the var and let's say person page and we'll set that to 35 and then let's say
+
+10:31.220 --> 10:31.850
+city
+
+10:35.860 --> 10:42.420
+you know set that to New York and that should be in lowercase.
+
+10:43.000 --> 10:49.090
+OK so now we have this person this is an associate of array because instead of just using 0 1 2 we're
+
+10:49.090 --> 10:51.370
+using actual words.
+
+10:51.790 --> 10:57.940
+OK so if we want we can say Konsole dog log and let's just log person.
+
+10:58.530 --> 11:03.590
+And now when we reload you can see that each value basically has its own key K.
+
+11:03.640 --> 11:06.100
+It's a set of key value pairs.
+
+11:06.100 --> 11:08.650
+If we want just the name we can say person
+
+11:11.040 --> 11:14.910
+name and reload and we get the name.
+
+11:14.910 --> 11:18.250
+So this works pretty much how objects work.
+
+11:18.270 --> 11:20.820
+OK and that's what we're going to look at next.
+
+11:21.030 --> 11:30.690
+So to create an object let's create one called car and set it to have a list of properties of key value
+
+11:30.690 --> 11:35.520
+pairs and they're going to be wrapped this time in curly braces.
+
+11:35.520 --> 11:44.080
+All right so we'll say make will be Ford we'll have model
+
+11:46.890 --> 11:56.480
+Mustang and year say nineteen sixty four.
+
+11:56.530 --> 11:56.800
+All right.
+
+11:56.800 --> 11:58.870
+So we now have this car object.
+
+11:58.870 --> 12:00.590
+Let's go ahead and console larget
+
+12:03.910 --> 12:07.770
+OK we reload and you can see it tells us it's an object.
+
+12:07.780 --> 12:10.090
+And it gives us the different fields.
+
+12:10.090 --> 12:11.030
+OK.
+
+12:11.380 --> 12:14.780
+Just like an associate of Ray.
+
+12:15.010 --> 12:24.220
+And if we want to access a certain property we can simply to dot dot make sure you load and we get forward.
+
+12:24.310 --> 12:24.660
+OK.
+
+12:24.670 --> 12:33.760
+So instead of using the square brackets here like we did with the array we just use Daut.
+
+12:33.800 --> 12:34.060
+All right.
+
+12:34.070 --> 12:41.930
+Now we can also have an array of objects which is something that that you you probably work with a lot
+
+12:42.230 --> 12:46.430
+especially when dealing with different API when you fetch data from a server.
+
+12:46.550 --> 12:53.230
+A lot of times it'll come back as Jason syntax which is basically an array of objects.
+
+12:53.300 --> 12:59.110
+So let's create a variable called cars and set it to a set of brackets.
+
+12:59.150 --> 13:03.250
+And then in these brackets we'll have objects.
+
+13:03.260 --> 13:06.920
+OK so I'm just going to grab what we have for here.
+
+13:07.190 --> 13:18.350
+Paste that in K so that represents one car and then we'll copy this and actually put a comma there and
+
+13:18.350 --> 13:19.830
+then we'll just change this up
+
+13:23.830 --> 13:33.310
+say Paula say 19 now 78 this one
+
+13:36.220 --> 13:43.130
+say Toyota Camry 2015.
+
+13:43.180 --> 13:46.390
+All right so now we want to do is log this
+
+13:51.350 --> 13:54.830
+way and then down here you'll see that we get these three objects.
+
+13:54.840 --> 13:59.700
+Click on these arrows and that will give us each of the fields.
+
+13:59.750 --> 14:00.110
+All right.
+
+14:00.110 --> 14:02.680
+So that is an array of objects.
+
+14:02.880 --> 14:06.670
+If we want to access certain one we can go ahead and use an index.
+
+14:06.660 --> 14:13.770
+Let's say one member there is zero base so this would be one the Chevy reload that gives us the object
+
+14:13.770 --> 14:17.250
+if we want to focus in on one of the properties.
+
+14:17.460 --> 14:21.840
+Say Daut model and that gives us Impala.
+
+14:22.120 --> 14:27.300
+OK so we can easily access any of these objects in their properties.
+
+14:27.300 --> 14:31.120
+All right so we're going to stop here for now and I'll see you in the next video.
